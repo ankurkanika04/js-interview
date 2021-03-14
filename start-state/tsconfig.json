@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "dom",
+            "es2017"
+        ],
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "allowJs": false,
+        "noEmit": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "extendedDiagnostics": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./typings",
+            "./node_modules/@types"
+        ],
+        "baseUrl": ".",
+        "outDir" : "./.tsbuild",
+        "declaration": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "types": [
+        "typePatches"
+    ]
+}
