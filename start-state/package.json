@@ -5,8 +5,9 @@
   "scripts": {
     "start": "yarn dev",
     "test": "jest --watchAll --coverage --no-cache --config jest.config.js",
-    "dev": "webpack-dev-server --progress --hot"
-  },
+    "dev": "webpack-dev-server --progress --hot",
+    "build": "webpack"
+   },
   "author": "SCB",
   "devDependencies": {
     "@types/jest": "24.0.15",
